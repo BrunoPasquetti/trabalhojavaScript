@@ -1,0 +1,39 @@
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: rgb(252, 181, 0);
+    --cor-terciaria: #22D4FD;
+    --cor-quarteraria: white;
+    --cor-quinteraria: #1100ff;
+    --cor-sextaria: #040441;
+    --cor-setiaria: #1EDB00;
+    --cor-oteraria: #00E033;
+    --cor-nonaria: #04D939;
+    }
+
+body{
+    background-color: var(--cor-secundaria);
+    margin: 20px;
+}
+
+.paragrafo{
+   font-size: 20px; 
+}
+
+button {
+    padding: 10px 20px;
+    margin-right: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: var(--cor-nonaria); 
+    color: var(--cor-sextaria); 
+}
+
+button:hover {
+    background-color: var(--cor-setiaria); 
+}
+
+button:active {
+    background-color: var(--cor-quinteraria); 
+}
